@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Rasa');
-@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed');
+/* @import url('https://fonts.googleapis.com/css?family=Rasa'); */
+/* @import url('https://fonts.googleapis.com/css?family=Barlow+Condensed'); */
 
 html {
   font-family: 'Roboto', sans-serif;
+  /* font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; */
 }
 
 * {
@@ -12,100 +13,36 @@ html {
 
 body {
   background-color: #EEE;
-  margin: 1rem .5rem 2rem;
-  /* font-size: 22px; */
-  font-size: calc(12px + .5vw);
+  padding: 1rem .5rem 2rem;
+  font-size: calc(10px + .4vw);
   min-width: 320px;
   transition: .4s;
-  font-family: 'Rasa', serif;
+  line-height: 1.5em;
+  font-family: 'Rasa' serif;
 }
 
 .container {
   margin: 0 auto;
-  padding: 4rem 0;
+  padding: 1rem 0 4rem 0;
   width: auto;
-  max-width: 800px;
+  max-width: 780px;
 }
 
-.object-container {
+.profile-container {
+  width: 100%;
   height: 365px;
-  margin: 2rem auto 0;
-  min-width: 360px;
-  position: relative;
-}
-
-.object-container .profile-image {
-  max-width: 320px;
-  left: 25%;
-  transform: translateX(-20%);
+  max-width: 365px;
+  height: auto;
+  /* clip-path: polygon(7px 381px, 365px 480px, 364px 342px, 327px 293px, 342px 66px, 231px -28px, 46px 59px); */
+  /* margin-left: -2%; */
 }
 
 .profile-image {
-  position: absolute;
+  max-width: 320px;
 }
 
-.profile-image-lines {
-  transition: 6s;
-  opacity: 1;
-  animation: 3s ease 0s normal forwards 1 fadeout;
-  -webkit-animation: 3s ease 0s normal forwards 1 fadeout;
-}
-
-@keyframes fadeout {
-  0% {
-    opacity: 1
-  }
-  80% {
-    opacity: .5
-  }
-  100% {
-    opacity: .1
-  }
-}
-
-@-webkit-keyframes fadeout {
-  0% {
-    opacity: 1
-  }
-  80% {
-    opacity: .5
-  }
-  100% {
-    opacity: .1
-  }
-}
-
-.profile-image-solid {
-  transition: 8s;
-  opacity: 0;
-  z-index: 0;
-  color: #F4F4F4;
-  animation: 3s ease 0s normal forwards 1 fadein;
-  -webkit-animation: 3s ease 0s normal forwards 1 fadein;
-}
-
-@keyframes fadein {
-  0% {
-    opacity: 0
-  }
-  80% {
-    opacity: .75
-  }
-  100% {
-    opacity: 1
-  }
-}
-
-@-webkit-keyframes fadein {
-  0% {
-    opacity: 0
-  }
-  80% {
-    opacity: .75
-  }
-  100% {
-    opacity: 1
-  }
+.cls-1 {
+  fill: blue;
 }
 
 .content-container {
@@ -122,6 +59,8 @@ section {
 
 .project {
   padding-bottom: .75em;
+  -ms-hyphens: auto;
+  -webkit-hyphens: auto;
 }
 
 .content-container .container-top {
@@ -139,60 +78,55 @@ h1 {
 
 h2 {
   font-size: 2.2em;
+  font-weight: 800;
 }
 
 h3 {
-  font-size: 1.5em;
+  font-size: 1.4em;
 }
 
 p, a {
-  font-size: 1.25em;
+  font-size: 1.2em;
+  word-break: break-word;
 }
 
 h1 {
-  color: #040404;
+  color: black;
   font-weight: 500;
   margin: 1rem 0;
   transition: 0.5s;
 }
 
 h2 {
-  color: #040404;
+  color: black;
   font-weight: 500;
   margin: 30px 0 20px;
 }
 
 h3 {
-  color: #040404;
+  color: black;
   font-weight: 500;
   margin: 15px 0 20px;
 }
 
 h3 a {
   font-family: 'Barlow Condensed', sans-serif;
-  color: #0000FF;
+  color: blue;
   line-height: 1.5;
   text-decoration: none;
-  border-bottom: 3px solid #0000FF;
+  border-bottom: 3px solid blue;
   padding-bottom: 3px;
   padding-right: 1%;
   transition: 0.4s;
   font-weight: 600;
 }
 
-a {
-  color: #0000FF;
+h3 a:hover {
   padding-bottom: 1px;
-  transition: 0.4s;
-  font-size: 1em;
 }
 
 a:hover {
   padding-bottom: 0px;
-}
-
-h3 a:hover {
-  padding-bottom: 1px;
 }
 
 p {

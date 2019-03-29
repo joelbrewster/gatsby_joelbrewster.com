@@ -27,6 +27,8 @@ body.loaded {
   height: 365px;
   margin: 2rem auto 0;
   min-width: 360px;
+  max-width: 360px;
+  width: 360px;
   position: relative;
 }
 
@@ -34,10 +36,12 @@ body.loaded {
   max-width: 320px;
   left: 25%;
   transform: translateX(-20%);
+  outline: 1px solid red;
 }
 
 .profile-image {
   position: absolute;
+  height: 100%;
 }
 
 .profile-image-lines {
