@@ -98,15 +98,14 @@ export default App => (
                 />
                 <Project
                     name="Zero Player - Online"
-                    link="http://joelbrewster.com/zero-player"
-                    summary=""
+                    link="https://joelbrewster.github.io/zero-player/index.html"
+                    summary="This app is personal project. It is an audio interface that creates random melodies and chords from cellular automation patterns. A user can interact with the app via a monome (OSC device), computer keyboard or with just the mouse. Please use a modern browser like Google Chrome of Firefox to get the full experience."
                 />
                 <Project
-                    name="Zero Player - Web and Mac OS App"
-                    link="https://joelbrewster.github.io/zero-player/index.html"
-                    summary="This app is personal project. It is an audio interface that creates random melodies and chords from cellular automation patterns. A user can interact with the app via a monome (OSC device), computer keyboard or with just the mouse. If you're on Mac OS, try downloading it as a standalone app."
+                    name="Zero Player - App"
+                    link="https://github.com/joelbrewster/zero-player-app/releases/download/0.1/zero-player.zip"
+                    summary="If you're on Mac OS, try downloading this as a standalone app."
                 />
-                <a href="https://github.com/joelbrewster/zero-player-app/releases/download/0.1/zero-player.zip">Standalone Mac OS app</a>
                </div>
             </section>
             <Footer text="✉️️ hi @ this domain name" />
