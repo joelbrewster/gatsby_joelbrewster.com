@@ -5,12 +5,12 @@ import React from 'react';
 class Header extends React.Component {
     componentDidMount () {
         setTimeout(function () {
-        var profilelines = document.querySelector('.profile-image-lines');
-        profilelines.classList.add('fadeout');
+            var profilelines = document.querySelector('.profile-image-lines');
+            profilelines.classList.add('fadeout');
 
-        var profilesolid = document.querySelector('.profile-image-solid');
-        profilesolid.classList.add('fadein');
-    }, 10);
+            var profilesolid = document.querySelector('.profile-image-solid');
+            profilesolid.classList.add('fadein');
+        }, 1000);
     }
     render () {
       return (
