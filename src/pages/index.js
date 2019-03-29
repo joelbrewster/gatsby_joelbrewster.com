@@ -102,10 +102,11 @@ export default App => (
                     summary=""
                 />
                 <Project
-                    name="Zero Player - Mac OS App"
-                    link="https://github.com/joelbrewster/zero-player-app/releases/download/0.1/zero-player.zip"
-                    summary="This app is personal project. It is an audio interface that creates random melodies and chords from cellular automation patterns. A user can interact with the app via a monome (OSC device), computer keyboard or with just the mouse. If you're on Mac OS, check this out as a downloadable app to run."
+                    name="Zero Player - Web and Mac OS App"
+                    link="https://joelbrewster.github.io/zero-player/index.html"
+                    summary="This app is personal project. It is an audio interface that creates random melodies and chords from cellular automation patterns. A user can interact with the app via a monome (OSC device), computer keyboard or with just the mouse. If you're on Mac OS, try downloading it as a standalone app."
                 />
+                <a href="https://github.com/joelbrewster/zero-player-app/releases/download/0.1/zero-player.zip">Standalone Mac OS app</a>
                </div>
             </section>
             <Footer text="✉️️ hi @ this domain name" />
