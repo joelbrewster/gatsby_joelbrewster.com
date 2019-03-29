@@ -1,3 +1,5 @@
 # joelbrewster.com
 
-Site redployed with gatsby
+Site redeployed with gatsby
+
+- npm run deploy
