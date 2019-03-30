@@ -32,7 +32,7 @@ export default App => (
                 />
                 <Project
                     name="Halcyon Lake"
-                    link="https://https://halcyonlake.comm"
+                    link="https://halcyonlake.comm"
                     summary="Halcyon Lake is a specialist purveyor of rugs and carpets. Our range is selected for level of craftsmanship, individual character, lasting style and the finest materials."
                 />
                 <Project
