@@ -10,6 +10,7 @@ import styles from '../pages/global.css';
 
 export default App => (
     <div className="container">
+        
         <div className="content-container">
             <Header />
             <Intro
@@ -31,7 +32,7 @@ export default App => (
                 />
                 <Project
                     name="Halcyon Lake"
-                    link="https://https://halcyonlake.com/.com"
+                    link="https://https://halcyonlake.comm"
                     summary="Halcyon Lake is a specialist purveyor of rugs and carpets. Our range is selected for level of craftsmanship, individual character, lasting style and the finest materials."
                 />
                 <Project
