@@ -14,7 +14,7 @@ export default App => (
         <div className="content-container">
             <Header />
             <Intro
-                headerText="Hi, I'm Joel Brewster"
+                headerText="Hi, I'm Joel Brewster."
                 introTop="I am a passionate, curious and enthusiastic developer with a penchant for front-end development and interfaces."
                 introMiddle="I enjoy creating engaging experiences and coding pixel perfect websites."
                 introBottom="I love front-end development, doing good in the world, studying, music and chocolate"
