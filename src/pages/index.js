@@ -62,8 +62,7 @@ export default App => (
             <Project
               name="Melbourne Writers Festival 2018"
               link="http://mwf.com.au"
-              summary="Melbourne Writers Festival is Victoria's winter celebration for readers, writers and thinkers. MWF brings together writers from
-              around the world to celebrate literature, explore ideas, and inspire readers."
+              summary="Melbourne Writers Festival is Victoria's winter celebration for readers, writers and thinkers. MWF brings together writers from around the world to celebrate literature, explore ideas, and inspire readers."
             />
             <Project
               name="Invictus Games"
