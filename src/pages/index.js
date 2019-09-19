@@ -50,11 +50,6 @@ export default App => (
               summary="Now Sound is a feature length documentary exploring Melbourne’s love for music. Guided by a plethora of culturally relevant artists, the film focuses on the vibrant music scene of Melbourne’s inner northern suburbs. Showcasing unique artists and exalting subcultures, Now Sound documents the trials and tribulations that constantly threaten to demolish Melbourne’s iconic music culture and the unending passion that revives and sustains it. Music is the voice of culture; Now Sound is a documentary about listening."
             />
             <Project
-              name=" Little May Music"
-              link="https://www.littlemaymusic.com"
-              summary=" Little May is a pop/folk/indie band formed in Sydney, NSW, Australia in 2012. A Sydney-based indie-folk band, Little May creates sprawling yet intricate heart-warming harmonies."
-            />
-            <Projecn
               name="JBL Weekend Warrior Challenge"
               link="https://www.jblwwc.com.au"
               summary=" To celebrate the launch of JBL’s new Reflect and Endurance sports headphones, JBL are bringing a one-of-a-kind Weekend Warrior Challenge."
