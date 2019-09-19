@@ -8,7 +8,6 @@ export default props => (
         <p>{props.introMiddle}</p>
         <p>
             {props.introBottom}
-            <span id="swap">{props.introLove}</span>.
         </p>
 </section>
 )

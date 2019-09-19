@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 
 body {
@@ -11,6 +12,7 @@ body {
   opacity: 0;
   transition: .4s;
   font-family: 'Rasa', serif;
+
 }
 
 body.loaded {
@@ -21,6 +23,7 @@ body.loaded {
   margin: 4rem auto;
   width:auto;
   max-width: 800px;
+  outline: 1px solid red;
 }
 
 .object-container {
