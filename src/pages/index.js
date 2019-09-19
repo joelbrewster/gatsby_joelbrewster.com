@@ -35,11 +35,6 @@ export default App => (
               summary="Queens Place is situated at the verge of Flagstaff Hill— Melbourne’s highest point. From this elevated position on historic Queens Street, the soaring, distinctive forms of its twin towers will become a prominent feature on the CBD skyline."
             />
             <Project
-              name="Paramount House Hotel"
-              link="https://paramounthousehotel.com"
-              summary="Paramount House Hotel is located in the former headquarters of Paramount Picture Studios; alongside co-tenants Golden Age Cinema, Paramount Coffee Project, The Office Space and Paramount Recreation Club."
-            />
-            <Project
               name="CMC Rocks"
               link="https://www.cmcrocks.com"
               summary="The biggest event on the Australian country music calendar, CMC Rocks this year played host to a record-breaking 20,000 music lovers, who descended on Willowbank to catch their favourite local and international music idols live in action."
